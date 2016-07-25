@@ -1,0 +1,90 @@
+html,body {
+    height:590;
+    width:355;
+}
+header {
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:hotpink;
+    height:30;
+    padding-top: 7px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout:fixed;
+}
+
+div{
+     border: 1px solid #dddddd;
+     height: 150;
+    
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+p,p1,p2,p3{
+    font-family:arial, sans-serif;
+}
+
+table:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th {
+    color:white;
+    font-size:23;
+    background-color: black;
+    border:1px solid;
+    border-color: rgba(255, 105, 180, 0.61);
+}
+/* a differnt color pink: rgba(255, 105, 180, 0.61);*/
+
+td {
+    font-size:12;
+    font-weight: bold;
+    color:grey;
+    
+}
+
+
+img {
+    height:40;
+    float: right;
+}
+
+p {
+    font-size:16;
+    font-weight:bold;
+    color: black;
+}
+ 
+
+ p1 {
+     float:right;
+     font-size: 11;
+     color: grey;
+ }
+ 
+ p2 {
+     color:grey;
+     font-weight: bold;
+     font-size: 12;
+     
+ }
+ 
+ p3 {font-size: 10;
+     float:right;
+     color:black;
+     
+ }
+ 
+ 

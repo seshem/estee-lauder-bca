@@ -1,0 +1,31 @@
+html,body {
+    height:590;
+     width: 355;
+    background-color:#FF1493;
+     color:white;
+     
+    }
+h1{ 
+    position:relative;
+    left:100px;
+    color:black;
+    font-style:italic;
+    font-size:20px
+}
+ input{ 
+     color:#FF1493;
+     
+     
+ }
+
+    
+img{ 
+    margin:30px;
+    border:solid;
+    float:right;
+    width:50px;
+    color:black;
+}
+
+
+

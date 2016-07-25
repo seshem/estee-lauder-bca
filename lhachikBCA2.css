@@ -1,0 +1,39 @@
+html,body {
+    height:590;
+     width: 355;
+    background-color:white;
+     color:black;
+     padding-right:10px 100px;
+     border:3px solid black;
+     
+    }
+h1{ 
+    
+    position:relative;
+    left:100px;
+    color:black;
+    font-style:italic;
+    font-size:30px
+   }
+ input { 
+     color:black;
+     
+     
+     
+     }
+     
+form{ background-color:#ff66b3;
+    border:2px solid white;
+}
+ img{ margin:-12px 1px;
+     float:right;
+    width: 80px;
+ }
+p{font-style:italic;
+    font-size:15px;
+    color:black;
+}
+
+
+
+

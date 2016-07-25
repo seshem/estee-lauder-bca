@@ -1,0 +1,61 @@
+html,body {
+    height:590;
+    width:355;
+}
+header {
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:hotpink;
+    height:30;
+    padding:16px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+div {
+     border: 1px solid #dddddd;
+     height:230;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+th {
+    color:white;
+    font-size:10;
+    background-color: black;
+    border-color: rgba(255, 105, 180, 0.61);
+    padding:8px;
+}
+
+td {
+    font-size:14;
+    font-weight: bold;
+    color:black;
+}
+
+img {
+    height:30;
+    float: right;
+}
+
+.left {
+    height:30;
+    float:left;
+}
+ 
+
