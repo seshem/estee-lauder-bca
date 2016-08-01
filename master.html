@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" href="master.css" type="text/css" />
+  </head>  
+    <body>
+        
+<!-- *********** -->
+<!-- 1 -->
+
+        <section id="page1" onclick="showPage('2')">
+            <header> Attendees</header>
+            <table>
+            
+                <th>All
+                    <img src="money.png"></img>
+                </th>
+            
+            </table>
+            
+            <table>
+                <td>Names </td>
+            
+                <td>Amount</td>
+            </table>
+            
+            <table>
+            
+                <tr>
+                    <td>B
+                        <p>BlakelynAnne
+                            <p1>100,00 USD</p1>
+                        </p>
+                        <p> Bushey Steve
+                            <p1> 125,00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>C
+                        <p>Chauhan Tarum
+                            <p1> 30,00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>L
+                        <p>Lee Victoria
+                            <p1> 70,00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>S
+                        <p>Sparks Tara
+                            <p1> 60,00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>T
+                        <p>Toole Aly
+                            <p1> 150,00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+<!-- *********** -->
+<!-- 2 -->
+        <section id="page2" onclick="showPage('3')">
+            <form>
+                <header> Event</header> Search
+                <input type="search" name="Event Search">
+                <input type="submit">
+            </form>
+            
+            <p>Estee Lauder BCA</p>
+        </section>
+
+<!-- *********** -->
+<!-- 3 -->
+        <section id="page3" onclick="showPage('4')">
+            <header>Attendee Details</header>
+            <table>
+            
+                <th>Aly Toole
+                    <img src="personicon.png"></img>
+                </th>
+            
+            </table>
+            
+            <table>
+                <td>Group</td>
+                <td>Ticket</td>
+                <td>Contacts</td>
+            </table>
+            
+            <table>
+            
+                <tr>
+                    <td>Checked In
+                        <p>No
+                            <p1>Check In</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Checked Out
+                        <p>No</p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Registration Type
+                        <p>Default</p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Admisssion Item
+                        <p>Event Registration</p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Confirmation Number
+                        <p>KHNMFZ3BL44</p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Source ID
+                        <p>9999999</p>
+                    </td>
+                </tr>
+            
+            </table>
+            
+            <table class="tags">
+                <tr>
+                    <td> <img src="identity.png"></img>
+                    </td>
+                    <td> <img src="tag.png"></img>
+                    </td>
+                    <td> <img src="page.png"></img>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+<!-- *********** -->
+<!-- 4 -->
+        <section id="page4" onclick="showPage('5')">
+            <header>
+                <img class="left" src="arrow-left2.png"></img>
+                Donate/Sell
+            </header>
+            <table>
+            
+                <th>Donators </th>
+            
+                <tr>
+                    <td>Clinique Booth
+                        <img src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Bobbi Brown Booth
+                        <img src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Brand ABC Booth
+                        <img src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Brand XYZ Booth
+                        <img src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+            </table>
+        </section>
+
+<!-- *********** -->
+<!-- 5 -->
+        <section id="page5" onclick="showPage('6a')">
+            <header>
+                <img class="left" src="arrow-left2.png"></img>
+                Donate/Sell
+            </header>
+            
+            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+            
+                    </div>
+                </div>
+            </div>
+            
+            <table>
+            
+                <th>Donators </th>
+            
+                <tr>
+                    <td>
+                        <img src="arrow-right.png"></img>
+                        <button type="img" class="" data-toggle="modal" data-target="#myModal">Clinique Booth</button>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+            
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="img" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Clinique Booth</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>write amount here USD</p>
+                                    </div>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <img src="arrow-right.png"></img>
+                        <button type="img" class="" data-toggle="modal" data-target="#bbb">Bobbi Brown Booth</button>
+                        <div class="modal fade" id="bbb" role="dialog">
+                            <div class="modal-dialog">
+            
+            
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="img" class="close" data-dismiss="modal">&times;</button>
+                                        <h5 class="modal-title">Bobbi Brown Booth</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>write amount here USD</p>
+                                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="arrow-right.png"></img>
+                        <button type="img" class="" data-toggle="modal" data-target="#bab">Brand ABC Booth</button>
+                        <div class="modal fade" id="bab" role="dialog">
+                            <div class="modal-dialog">
+            
+            
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="img" class="close" data-dismiss="modal">&times;</button>
+                                        <h6 class="modal-title">Brand ABC Booth</h6>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>write amount here USD</p>
+                                    </div>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <img src="arrow-right.png"></img>
+                        <button type="img" class="" data-toggle="modal" data-target="#bxb">Brand XYZ Booth</button>
+                        <div class="modal fade" id="bxb" role="dialog">
+                            <div class="modal-dialog">
+            
+            
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="img" class="close" data-dismiss="modal">&times;</button>
+                                        <h7 class="modal-title">Brand XYZ Booth</h7>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>write amount here USD</p>
+                                    </div>
+                    </td>
+                </tr>
+            
+            </table>
+        </section>
+
+<!-- *********** -->
+<!-- 6A -->
+        <section id="page6a" onclick="showPage('6b')">
+            <header>Attendee Details
+                <img src="arrow-left2.png"></img>
+            </header>
+            <table>
+            
+                <th>All </th>
+            
+                <tr>
+                    <td>B
+                        <p>Blakey Anne
+                            <p1>100.00 USD</p1>
+                        </p>
+            
+                        <p>Bushey Steve
+                            <p1>125.00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>C
+                        <p>Chauhan Tarun
+                            <p1>30.00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>L
+                        <p>Lee Victoria
+                            <p1>70.00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>S
+                        <p>Sparks Tara
+                            <p1>60.00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>T
+                        <p>Toole Aly
+                            <p1>150.00 USD</p1>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            
+            <div></div>
+            
+            
+            <table class="search">
+                <td> <img src="search-icon.png"></img>
+                    Search</td>
+                <td> <img src="A-Z-icon.png"></img>
+                    Jump to Letter</td>
+            </table>
+        </section>
+  
+<!-- *********** -->
+<!-- 6B -->
+        <section id="page6b" onclick="showPage('1')">
+            <header>Attendee Details</header>
+            <table>
+            
+                <th>Steve Bushey
+                    <img src="personicon.png"></img>
+                </th>
+            </table>
+            
+            <table>
+                <tr>
+                    <td>Agenda</td>
+                    <td>Order Summary</td>
+                    <td>Price</td>
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <td>Order Details</td>
+                    <td>Payments & Refunds</td>
+                </tr>
+            </table>
+            
+            <table>
+                <tr>
+                    <td>
+                        <p>55.00 USD
+                            <p1>Apr 4, 2016</p1>
+                        </p>
+                        <p2>Clinique Booth
+                            <p3>55.00 USD</p3>
+                        </p2>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <p>25.00 USD
+                            <p1>Apr 4, 2016</p1>
+                        </p>
+                        <p2>Brand ABC Booth
+                            <p3>25.00 USD</p3>
+                        </p2>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>
+                        <p>45.00 USD
+                            <p1>Apr 4, 2016</p1>
+                        </p>
+                        <p2>Bobby Brown Booth
+                            <p3>45.00 USD</p3>
+                        </p2>
+                    </td>
+                </tr>
+            </table>
+            
+            <div></div>
+            
+            <table class="tags">
+                <tr>
+                    <td> <img src="identity.png"></img>
+                    </td>
+                    <td> <img src="credit-card.png"></img>
+                    </td>
+                    <td> <img src="tag.png"></img>
+                    </td>
+                    <td> <img src="page.png"></img>
+                    </td>
+                </tr>
+            </table>
+        </section>
+  
+  <script type="text/javascript" src="master.js"></script>
+  
+  </body>
+  </html>

@@ -1,0 +1,508 @@
+/* lhachik bca 1*/
+
+html,body {
+    height:590;
+    width:355;
+}
+
+#page1 header {
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:#f18eab;
+    height:40px;
+    padding: 7px;
+}
+
+
+#page1 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#page1 td, #page1 th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 4px;
+    padding-left:12px;
+    padding-right:12px;
+}
+/*
+#page1 tr:nth-child(even) {
+    background-color:#dddddd;
+}
+*/
+
+#page1 th {
+     color:white;
+    font-size:23;
+    background-color: black;
+    border-color:#f18eab;
+    padding-left:12px;
+    padding-top:7px;
+    padding-bottom:1px;
+}
+/* a differnt color pink: rgba(255, 105, 180, 0.61);*/
+
+#page1 td {
+    font-size:15;
+    font-weight:bold;
+    color:grey;
+    border:1px solid ;
+    border-color:#dddddd;
+    
+}
+
+
+#page1 img {
+    height:40px;
+    float: right;
+}
+
+#page1 p {
+    font-size:16;
+    font-weight:bold;
+    color: black;
+}
+ 
+
+#page1 p1 {
+     float:right;
+     font-size: 11;
+     color: grey;
+ }
+ 
+ /* lhachik bca 2*/
+ /*html,body {*/
+ /*   height:590;*/
+ /*    width: 355;*/
+ /*   background-color:white;*/
+ /*    color:black;*/
+ /*    padding-right:10px 100px;*/
+ /*    border:3px solid black;*/
+     
+ /*   }*/
+#page2 header{ 
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:#f18eab;
+    height:40px;
+    padding: 7px;
+
+   }
+   
+#page2 input { 
+     color:black;
+     margin:10px;
+     font-weight:bold;
+     border-radius:12px
+}
+
+     
+#page2 form{ 
+    text-align:center;
+    width:100%;
+    color:white;
+    background-color:black;
+    border:1px solid #f18eab;
+    border-collapse: collapse;
+    padding-bottom:5px;
+    }
+
+
+#page2 p{font-family: arial;
+    font-size:15px;
+    font-weight:bold;
+    color:black;
+    padding-left:12px;
+    padding-top:12px;
+    border:1px solid #dddddd;
+    padding-bottom:12px;
+}
+/* seshem bca 3*/
+/*html,body {*/
+/*    height:590;*/
+/*    width:355;*/
+/*}*/
+#page3 header {
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:#f18eab;
+    height:40px;
+    padding: 7px;
+}
+
+
+#page3 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+#page3 td, #page3 th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+#page3 th {
+    color:white;
+    font-size:23;
+    background-color: black;
+    border-color:#f18eab;
+    padding-left:12px;
+}
+/* a differnt color pink: rgba(255, 105, 180, 0.61);*/
+
+#page3 td {
+    font-size:12;
+    font-weight: bold;
+    color:grey;
+    
+}
+
+
+#page3 img {
+    height:30px;
+    float: right;
+}
+
+#page3 p {
+    font-size:16;
+    font-weight:bold;
+    color: black;
+}
+ 
+
+#page3 p1 {
+     float:right;
+     font-size: 11;
+ }
+ 
+ /* seshem bca 4*/
+/* html,body {*/
+/*    height:590;*/
+/*    width:355;*/
+/*}*/
+
+#page4 header {
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:#f18eab;
+    height:40px;
+    padding:7px;
+}
+
+#page4 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#page4 div {
+     border: 1px solid #dddddd;
+     height:230;
+}
+
+#page4 td, #page4 th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 16px;
+    padding-left:12px;
+}
+
+#page4 th {
+    color:white;
+    font-size:10;
+    background-color: black;
+    border-color:#f18eab;
+    height:40px;
+    padding:8px;
+    padding-left:12px;
+}
+
+#page4 td {
+    font-size:14;
+    font-weight: bold;
+    color:black;
+}
+
+#page4 img {
+    height:30px;
+    float: right;
+}
+
+#page4 .left {
+    height:30px;
+    float:left;
+}
+ 
+/* lhachik bca 5*/
+/*html,body {*/
+/*    height:590;*/
+/*    width:355;*/
+/*}*/
+#page5 header {
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:#f18eab;
+    height:40px;
+    padding:7px;
+}
+
+
+
+#page5 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+  height:280px;
+    width: 100%;
+}
+
+/*div {*/
+/*     border: 1px solid #dddddd;*/
+/*     height:230;*/
+/*}*/
+
+#page5 .modal-dialog {
+    z-index: 1041;
+}
+
+
+#page5 td, #page5 th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding-left:1px;
+    /*padding: 16px;*/
+}
+
+#page5 td{
+    border: 1px solid #dddddd;
+}
+
+#page5 th {
+    color:white;
+    font-size:10;
+    background-color: black;
+    border-color:#f18eab;
+    height:40px;
+    padding-left:12px;
+    
+}
+
+#page5 td {
+    font-size:14;
+    font-weight: bold;
+    color:black; 
+    
+}
+
+ 
+#page5 img {
+    height:30px;
+    float: right;
+    padding-right:13px;
+}
+
+#page5 .left {
+    height:30px;
+    float:left;
+}
+ 
+#page5 h1, #page5 p{
+    padding:7px;
+    
+}
+
+#page5 h1{
+    text-align:center;
+      background-color: #f18eab;
+}
+
+#page5 button{
+    background-color: white;
+      border: 1px solid white;
+}
+
+/* seshem bca 6A*/
+/*html,body {*/
+/*    height:590;*/
+/*    width:355;*/
+/*}*/
+#page6a header {
+    font-family: Arial;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:#f18eab;
+    height:40px;
+    padding-top: 7px;
+}
+
+
+#page6a table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#page6a div {
+    border:solid 1px #dddddd;
+    height:100;
+}
+#page6a td, #page6a th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-left:12px;
+}
+
+#page6a th {
+    color:white;
+    font-weight: bold;
+    font-size:16;
+    text-align:left;
+    background-color: black;
+    border-color: #f18eab;
+    padding-left:12px;
+    padding-right:12px;
+}
+/* a differnt color pink: rgba(255, 105, 180, 0.61);*/
+
+#page6a td {
+    font-size:12;
+    font-weight: bold;
+    color:grey;
+    
+}
+
+
+#page6a img {
+    height:30px;
+    float: left;
+}
+
+#page6a p {
+    font-size:12;
+    font-weight:bold;
+    color: black;
+}
+ 
+#page6a p1 {
+     font-size: 10;
+     float:right;
+     color:grey;
+ }
+ 
+#page6a .search {
+    table-layout:fixed;
+    border:1px solid;
+   border-bottom-color: black;
+}
+/*seshem bca 6B*/
+
+/*html,body {*/
+/*    height:590;*/
+/*    width:355;*/
+/*}*/
+#page6b header {
+    font-family: Arial;
+    height:40px;
+    font-size: larger;
+    text-align: center;
+    color:white;
+    background-color:#f18eab;
+    padding-top: 7px;
+}
+
+
+#page6b table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout:fixed;
+}
+
+#page6b div{
+     border: 1px solid #dddddd;
+     height: 150;
+    
+}
+#page6b td, #page6b th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+#page6b p, #page6b p1, #page6b p2, #page6b p3{
+    font-family:arial, sans-serif;
+}
+
+#page6b th {
+    color:white;
+    font-size:23;
+    background-color: black;
+    border:1px solid;
+    border-color: #f18eab;
+}
+/* a differnt color pink: rgba(255, 105, 180, 0.61);*/
+
+#page6b td {
+    font-size:12;
+    font-weight: bold;
+    color:grey;
+    
+}
+
+
+#page6b img {
+    height:25px;
+    float: right;
+}
+
+#page6b p {
+    font-size:16;
+    font-weight:bold;
+    color: black;
+}
+ 
+
+#page6b p1 {
+     float:right;
+     font-size: 11;
+     color: grey;
+ }
+ 
+#page6b p2 {
+     color:grey;
+     font-weight: bold;
+     font-size: 12;
+     
+ }
+ 
+#page6b p3 {font-size: 10;
+     float:right;
+     color:black;
+     
+ }
+ 
+#page6b section {
+     display: none;
+     opacity: 0;
+ }
