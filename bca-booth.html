@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" href="bca-booth.css" type="text/css" />
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>  
+    <body>
+        
+<!-- *********** -->
+<!-- 1 -->
+
+        <section id="page1">
+            <header>
+            <div class="heading">
+                <div class="col-xs-1"><span id="back-button" onClick="showPage('8')" class="glyphicon glyphicon-menu-left"></span></div>
+                <div class="col-xs-10"><img class="logo" src="bca-logo.png"></div>
+            </div>
+            </header>
+            
+            <table>
+                <tr>
+                    <td>
+                        <img class="makeup" src= "product-rubywoo.png" >
+                        Lipstick
+                        <p>Ruby Woo</p> 
+                         <form class="quantity 1" id='myform' method='POST' action='#'>
+    <input type='button' value='-' class='qtyminus' field='quantity' />
+    <input type='text' name='quantity' value='0' class='qty' />
+    <input type='button' value='+' class='qtyplus' field='quantity' />
+</form>
+                        <p1> $17.00</p1>
+                        
+                        
+                    </td>
+                </tr>
+            
+                <tr>
+                   <td>
+                        <img class="makeup" src= "product-studiofixfluid.png">
+                       Studi Fix Fluid SPF
+                    <p>NC15</p>
+                    <form class="quantity 2" id='myform' method='POST' action='#'>
+    <input type='button' value='-' class='qtyminus' field='quantity' />
+    <input type='text' name='quantity' value='0' class='qty' />
+    <input type='button' value='+' class='qtyplus' field='quantity' />
+</form>
+                    <p1>$27.00</p1>
+                      
+                        
+                    </td>
+                </tr>
+            
+            </table>
+            <table>
+                <div class="space"></div>
+            </table>
+            
+            <footer id="confirm" onClick="showPage('3')"> 
+            <p1> Confirm </p1>
+            </footer>
+
+        </section>
+    
+        
+<!-- *********** -->
+<!-- 2 -->
+        <section id="page2">
+            <header>
+                <div class="heading">
+                    <div class="col-xs-1"><span id="back-button" onClick="showPage('6')" class="glyphicon glyphicon-menu-left"></span></div>
+                    <div class="col-xs-10"><img class="logo" src="bca-logo.png"></div>
+                </div>
+            </header>
+            <table>
+            
+                <th>Booth Details (MAC)</th>
+            
+                <tr>
+                    <td> <img class="product" src="product-rubywoo.png">
+                        Lipstick
+                        <p>Ruby Woo</p>
+                            <p1>10 sold/ <p2>$170 total</p2></p1>
+                    </td>
+                </tr>
+            
+                <tr> 
+                    <td> <img class="product" src="product-vivaglam-ariana.png">
+                        Lipstick/ Viva Glam Ariana Grande
+                        <p>VIVA GLAM Ariana</p>
+                            <p1>10 sold/ <p2>$170 total</p2></p1>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td> <img class="product" src="product-studiofixfluid.png">
+                        Studio Fix Fluid SPF 15
+                        <p>NC15</p>
+                            <p1>10 sold/ <p2>$270 total</p2></p1>
+                    </td>
+                </tr>
+            
+            </table>
+        </section>
+
+<!-- *********** -->
+<!-- 3 -->
+        <section id="page3">
+            <header>
+                <div class="heading">
+                    <div class="col-xs-12"><img class="logo" src="bca-logo.png"></div>
+                </div>
+            </header>
+            <table>
+            
+                <th>  Confirmed!
+                </th>
+            
+            </table>
+          
+            
+            <table>
+              
+                <tr>
+                    <td class=sales> 
+                        Total booth sales:
+                       <p>$5000</p>
+                    </td>
+                </tr>
+        
+            
+            </table>
+            
+            <table class="tags">
+                <tr id="new-ticket" onClick="showPage('5')">
+                    <td>New ticket</td>
+                </tr>
+                
+            </table>
+            <table>
+                <tr id="booth-details" onClick="showPage('2')">  
+                        <td> Booth Details </td>
+                 
+                </tr>
+            </table>
+        </section>
+
+<!-- *********** -->
+<!-- 4 -->
+        <section id="page4">
+            <header>
+                <div class="heading">
+                    <div class="col-xs-1"><span id="back-button" onClick="showPage('6')" class="glyphicon glyphicon-menu-left"></span></div>
+                    <div class="col-xs-10"><img class="logo" src="bca-logo.png"></div>
+                </div>
+                <span class="glyphicon glyphicon-edit pull-right "></span>
+            </header>
+            
+                <form>
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input type="search" name="Event Search" placeholder="An">
+                </form>
+            <table>
+            
+                <th>A </th>
+            
+                <tr>
+                    <td>Andrea
+                        <img src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Annie
+                        <img src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+            </table>
+        </section>
+
+<!-- *********** -->
+<!-- 5 -->
+        <section id="page5">
+            
+            <header>
+                <div class="heading">
+                    <div class="col-xs-1"><span id="back-button" onClick="showPage('6')" class="glyphicon glyphicon-menu-left"></span></div>
+                    <div class="col-xs-10"><img class="logo" src="bca-logo.png"></div>
+                    <div class="col-xs-1"><span class="glyphicon glyphicon-edit pull-right"></span></div>
+                </div>
+            </header>
+                <form>
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input type="search" name="Event Search" placeholder="Find Attendee or Create New One">
+                </form>
+            <table>
+            
+                <th>A </th>
+            
+                <tr>
+                    <td>Andrea
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr id="annie-wishlist" onClick="showPage('8')">
+                    <td>Annie
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+            </table>
+            <table>
+            
+                <th>B </th>
+            
+                <tr>
+                    <td>Beau
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Blake
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bo
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Bonnie
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+            </table>
+            <table>
+            
+                <th>C</th>
+            
+                <tr>
+                    <td>Cammy
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Carmine
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Clara
+                        <img class="arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+            </table>
+        </section>
+
+<!-- *********** -->
+<!-- 6 -->
+        <section id="page6">
+            <header> 
+               <div class="heading">
+                    <div class="col-xs-1"><span id="back-button" onClick="showPage('7')" class="glyphicon glyphicon-menu-left"></span></div>
+                    <div class="col-xs-10"><img class="logo" src="bca-logo.png"></div>
+                </div>
+            </header>
+            <table>
+            
+                
+            
+                <tr id="new-ticket" onClick="showPage('5')">
+                        <td>New Ticket </td>
+                </tr>
+            
+                <tr id="booth-details" onClick="showPage('2')">
+                   
+                        <td>Booth Details
+                        
+                        </td>
+                   </tr>
+                
+            </table>
+            
+            <div></div>
+            
+        
+        </section>
+  
+<!-- *********** -->
+<!-- 7 -->
+     <section id="page7">
+            <header>
+                <div class="heading">
+                  <!--  <div class="col-xs-1"><span id="back-button" onClick="showPage('5')" class="glyphicon glyphicon-menu-left"></span></div> -->
+                    <div class="col-xs-10"><img class="logo" src="bca-logo.png"></div>
+                    <div class="col-xs-1"><span class="glyphicon glyphicon-edit"></span></div>
+                </div>
+            </header>
+            
+                <form>
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input type="search" placeholder="Find Attendee or Create New One">
+                </form>
+                
+            <table>
+                <tr>
+                    <td>Clinique
+                        <img class="right-arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+                <tr id="MAC" onClick="showPage('5')">
+                    <td>MAC
+                        <img class="right-arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aveda
+                        <img class="right-arrow" src="arrow-right.png"></img>
+                    </td>
+                </tr>
+            
+            </table>
+        </section>
+        
+        <!-- 8 -->
+     <section id="page8">
+            <header>
+                <div class="heading">
+                    <div class="col-xs-1"><span id="back-button" onClick="showPage('5')" class="glyphicon glyphicon-menu-left"></span></div>
+                    <div class="col-xs-10"><img class="logo" src="bca-logo.png"></div>
+                </div>
+                
+                
+            </header>
+              <table>
+            
+                <th>Annie's Wishlist
+                   
+                </th>
+            
+            </table>
+            
+            <table>
+                
+             <td> 
+                   <img src= "product-rubywoo.png"></img><br>
+                   Lipstick
+                <p> Ruby Woo</p>
+                   
+                     <span class="glyphicon glyphicon-plus-sign"></span>
+                    
+            
+                </td>
+                
+            
+               <td>
+                     <img src="product-vivaglam-ariana.png"><br>
+                    Lipstick/Viva Glam Ariana Grande
+                
+                    <p>Viva GLAM Ariana</p>
+                    <span class="glyphicon glyphicon-plus-sign"></span>
+                    
+                
+                </td>
+            </table>
+            
+            <table>
+                <th>All Products
+                </th>
+            </table>
+            
+            <table>
+                
+                <td>
+                        <img src="product-studiofixfluid.png"><br>
+                    Studio Fix Fluid SPF 15 
+                <p> NC15</p>
+                <span class="glyphicon glyphicon-plus-sign"></span>
+                
+                </td>
+                <td><img src="product-vivaglam-ariana.png"><br>
+                    Lipstick/Viva Glam Ariana Grande 
+                <p>Viva GLAM Ariana</p>
+                <span class="glyphicon glyphicon-plus-sign"></span>
+                 
+                </td>
+            </table>
+    
+                <table>
+                    <tr>
+                     <p class="select"> 2 items Selected</p>
+                     </tr>
+                </table>
+            <footer>
+        <button id="wishlist" onClick="showPage('1');"><span class="glyphicon glyphicon-heart"> </span><br />Wishlist</button>
+         <button id="products" onClick="showBooths();"><span class="glyphicon glyphicon-search"> </span><br />Products</button>
+            </footer>
+    
+        </section>
+  
+  <script type="text/javascript" src="bca-booth.js"></script>
+  
+  </body>
+  </html>
